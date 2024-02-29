@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netfliex</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use a link tag for CSS -->
+    <style type="text/tailwindcss">
+      .title {
+        @apply text-[3.125rem] leading-[1.1] font-semibold tracking-wide;
+      }
+      .subtitle {
+        @apply text-[1.525rem]  font-light;
+        font-weight: 400;
+      }
+      .red-btn {
+        @apply bg-[#e50914] py-[6px] px-[26px] flex items-center rounded-sm text-[1.625rem];
+      }
+
+      .gray-border {
+        @apply border-t-[8px] border-[#222];
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <!-- Hero section Start -->
+    <div
+      class="relative"
+      style="
+        background-image: url(img/LK-en-20231002-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 92vh;
+      "
+    >
+      <div
+        class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-black/90 via-black/30 to-black/90"
+      ></div>
+      <!--Navabar Start-->
+      <div
+        class="flex items-center justify-between w-full px-[58px] pt-[28px] z-10 relative"
+      >
+        <svg
+          viewBox="0 0 111 30"
+          aria-hidden="true"
+          role="img"
+          class="text-[#e50914] fill-current h-[36px]"
+        >
+          <g>
+            <path
+              d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z"
+            ></path>
+          </g>
+        </svg>
+
+        <a
+          href="#"
+          class="bg-[#e50914] px-[17px] py-[7px] rounded-[3px] text-white text-[0.9rem]"
+          >Sign In</a
+        >
+      </div>
+      <!--NavBar End-->
+      <!--Main text-->
+      <div
+        class="relative z-10 flex flex-col text-center px-5 items-center justify-center w-[85%] max-w-[800px] text-white h-full mx-auto gap-3"
+      >
+        <h1 class="max-w-screen-sm title">
+          Unlimited movies, TV showes, and more.
+        </h1>
+        <p class="subtitle">Watch anywhere. cancel anytime.</p>
+        <p class="subtitle">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="flex justify-center w-full">
+          <input
+            type="text"
+            class="w-[60%] px-[10px] py-4 bg-white placeholder:text-sm"
+            placeholder="Email address"
+          />
+          <button class="red-btn">
+            <span>Get Started</span
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              data-mirrorinrtl="true"
+              class="w-5 h-5 text-white fill-current"
+              data-name="ChevronRight"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section end -->
+
+    <!--Section 1-->
+    <div class="gray-border">
+      <div
+        class="flex justify-between text-white max-w-[1100px] mx-auto items-center"
+      >
+        <div class="w-[52%]">
+          <h1 class="pb-3 title">Enjoy on your TV</h1>
+          <p class="subtitle">
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </p>
+        </div>
+        <div class="relative w-[48%]">
+          <img
+            class="w-full h-full"
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+            alt=""
+          />
+          <video
+            class="absolute top-[48%] max-h-[54%] max-w-[73%] left-[50%] -translate-x-1/2 -translate-y-1/2"
+            data-uia="nmhp-card-animation-asset-video"
+            autoplay=""
+            playsinline=""
+            muted=""
+            loop=""
+          >
+            <source
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </div>
+    <!--Section 2-->
+    <div class="gray-border">
+      <div
+        class="flex justify-between text-white max-w-[1100px] mx-auto items-center"
+      >
+        <div class="relative w-[48%]">
+          <img
+            class="w-full h-full"
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+            alt=""
+          />
+          <div
+            class="flex items-center absolute left-[50%] bottom-[4%] -translate-x-1/2 w-[60%] border-2 border-gray-700 justify-between p-2 rounded-[10px] bg-black"
+          >
+            <img
+              class="h-[4.5rem]"
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+              alt=""
+            />
+            <div class="text-left">
+              <div class="text-base">Stranger Things</div>
+              <div class="text-base text-[#0071eb]">Download...</div>
+            </div>
+
+            <img
+              class="h-[3rem] w-[3rem]"
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="w-[52%]">
+          <h1 class="pb-3 title">Download your shows to watch offline</h1>
+          <p class="subtitle">
+            Save your favorites easily and always have something to watch.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
